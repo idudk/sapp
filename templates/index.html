@@ -1,0 +1,25 @@
+<!doctype html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="static/index.js"></script>
+    <link rel="stylesheet" href="static/index.css">
+</head>
+
+<h1> Wikipedia Search App </h1>
+
+
+<body>
+    <div id="history-box">
+        <p id="history-title">History</p>
+        <p id="history"></p>
+    </div>
+
+    <button onclick="displayprev()">Previous</button>
+    <button onclick="displaynext()">Next</button>
+    <p id="status"></p>
+    <input id="search" type="text">  <button onclick="sethistory() id="but"">Search</button>
+    <br/>
+    <p id="index"></p>
+    <p id="result">Enter something to search!</p>
+    <div style="clear: both"><br/></div>
+</body>

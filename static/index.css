@@ -1,0 +1,38 @@
+body{
+    border-bottom: 2px solid grey;
+}
+h1 {
+    color: grey;
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+}
+
+button {
+    display: inline-block;
+} 
+
+input{
+    display: inline;
+}
+
+#result{
+    width: 78%;
+}
+
+#history-box{
+    width: 20%;
+    float: right;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+#subresult{
+    border-bottom: 1px dashed lightgrey;
+    margin-bottom:10px;
+}
+
+#hi{
+    background-color: yellow;
+}
+

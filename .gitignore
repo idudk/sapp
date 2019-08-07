@@ -1,0 +1,6 @@
+__pycache__/
+*.swp
+sapp_venv/
+data/**
+*.xml
+
